@@ -6,6 +6,8 @@
 
 body {
     background: linear-gradient(135deg, rgb(24 231 188) 8%, rgb(133 4 50) 98%);
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0px;
     padding: 0;
     color: white;
@@ -25,15 +27,20 @@ body {
     height: 40px;
     width: 3px;
     background-color: rgb(255, 255, 255);
-    margin-left: 30px;
+    margin-left: 78px;
+    margin-top: -42px;
 
 }
-
+.side{
+    height: 25px;
+    width: 25px;
+    margin: 9px 23px;
+}
 .navbar .top-left h1 {
     color: white;
     font-size: 1.8rem;
     padding: 3px 88px;
-    margin: -40px -44px;
+   margin: -39px 0px;
 }
 
 .navbar .top-left #element {
