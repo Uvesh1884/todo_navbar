@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="top-left">
+        <div class="vertical-line"></div>
+        <h1><span id="element"></span></h1>
+        
+    </div>
+    </nav>
+    <div class="container">
+      <div class="item1">
+          <h2><span id="start"><img src="/images/logo.png" alt=""></h2>
+          <div class="box1">
+              <input type="text" id="input-text" placeholder="Enter your Task">
+              <button onclick="addtask()">Add</button>
+          </div>
+          
+              <ul id="task">
+                  <!-- <li class="checked">item-1</li>
+                  <li>item-2</li>
+                  <li>item-3</li>
+                  <li>item-4</li> -->
+              </ul>
+          </div>
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['YOUR TO-DO LIST'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    var typed = new Typed('#start', {
+      strings: ["Subtracting from your list of priorities is as important as adding to it."],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="/javascript/index.js"></script>
+</body>
+</html>
